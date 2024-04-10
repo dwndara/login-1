@@ -1,0 +1,98 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }  
+.page{
+    padding: 20px;
+}
+.home{
+    display: contents;
+    font-size: 15px;
+    cursor: pointer;
+    color: #066a75;
+}
+.container {
+    font-family: "Nimbus Sans Arabic Bold", sans-serif;
+    margin: auto;
+    text-align: left;
+    max-width: 400px;
+    margin-top: 200px;
+    border: 1px solid #c3d5d7;
+}
+.container_email input{
+    width: 360px;
+}
+.container_password input{
+    width: 360px;
+
+}
+.login_name {
+    text-align: center;
+    font-size: 40px;
+    color: #066a75;
+}
+
+.line{
+    border: none;
+    border-top: 2px solid #9cbec2;
+    margin-top: 10px;
+}
+.container_email{
+    margin-top: 20px;
+    margin-left: 20px;
+    color:#066a75;
+
+}
+.container_password{
+    margin-left: 20px;
+    color:#066a75;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.checkbox{
+    font-size: 14px;
+    margin-left: 20px;
+    text-align: left;
+    color: #066a75;
+}
+.logar{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logar button{
+    border: none;
+    background-color: #3d9db3;
+    color: white;
+    font-size: px;
+    width: 360px;
+    height: 30px;
+    display: inline;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+.cadastre{
+    height: 45px;
+    text-align: right;
+    background-color: #e1eaeb;
+    color: #a0a0a1;
+    font-size: 13px;
+}
+.cadastre button{
+    color: #21a4c2;
+    border: solid 1px yellow;
+    width: 90px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer; 
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+::placeholder {
+    font-style: italic;
+}
